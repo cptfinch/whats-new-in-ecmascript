@@ -1,6 +1,8 @@
 
 
 // 2. In ECMA2016, the ** operator was introduced
+
+
 test('the infix ** operator does the same thing, since ecma2016, as Math.pow()', function(){
   expect(7**2).toEqual(Math.pow(7,2));
 });
